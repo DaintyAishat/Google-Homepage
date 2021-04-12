@@ -1,0 +1,44 @@
+body,p{
+    margin: 0;
+    padding: 0;
+}
+
+nav{ 
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: auto;
+    padding: 2em;
+}
+ a{
+    text-decoration: none;   
+    color: black;
+}
+a:hover{ text-decoration: underline;
+color: lightseagreen;}
+nav img{ 
+    height: 25px;
+} 
+main{ text-align:center;
+     margin:6.9em  auto;
+    width:45% ;}
+    input{ padding: 1em;
+    width:80% ;border-radius: 15px;
+    border: 2px  solid grey;}
+div.Button_Holder{margin-top: 16px; }
+div.Button_Holder button{
+    padding: 15px;
+    border: none;
+}
+footer{ 
+    background-color: rgb(240, 232, 232);
+
+}
+div.footer-top{ padding: 16px;}
+div.footer-bottom{ 
+    padding: 1em;
+display: flex; 
+justify-content: space-between;
+border-top:1px solid grey ;}  
+div.left a{ margin-right: 1em; }
+div.right a { margin-right: 1em;}
